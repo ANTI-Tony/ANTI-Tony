@@ -93,6 +93,19 @@
 - ✅ Commonwealth Bank Software Engineering (January 2025)
 
 ---
+## 📝 Latest Blog Posts
+
+<div align="center">
+
+[![掘金](https://img.shields.io/badge/dynamic/json?labelColor=1e80ff&color=1e80ff&label=掘金&query=$[0].follower_count&url=https://api.juejin.cn/user_api/v1/user/get?user_id=你的用户ID&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAzNiAyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNy45MTQ5IDMuNjI1NDJMMTcuOTIzOCAzLjYxNzg4TDE5Ljk5OTggMC45NzY1NjJMMjAuMDY1NSAwLjkwMDM5MUwyMC4xMzgxIDAuOTc2NTYyTDMwLjg1NzQgMTQuMDU1M0wzMC45MjMzIDE0LjEzMTRMMzAuODU3NCAxNC4yMDc2TDIwLjEzODEgMjcuMjg2NEwyMC4wNjU1IDI3LjM2MjZMMTkuOTkyOSAyNy4yODY0TDE3LjkxNDkgMjQuNjQyM0wxNy44NDY0IDI0LjU2NjFMMTcuOTE0OSAyNC40ODk5TDI3LjI3OTcgMTQuMTMxNEwxNy45MTQ5IDMuNzY1NzNMMTcuODQ2NCAzLjY4OTUxTDE3LjkxNDkgMy42MTI1MkwxNy45MTQ5IDMuNjI1NDJaTTkuNTg1MTUgMy42MjU0Mkw5LjU3NjIyIDMuNjE3ODhMNy41MDAwNiAwLjk3NjU2Mkw3LjQzNDM1IDAuOTAwMzkxTDcuMzYxODMgMC45NzY1NjJMLTMuMzU3NDYgMTQuMDU1M0wtMy40MjMzNCAxNC4xMzE0TC0zLjM1NzQ2IDE0LjIwNzZMNy4zNjE4MyAyNy4yODY0TDcuNDM0MzUgMjcuMzYyNkw3LjUwNjg3IDI3LjI4NjRMOS41ODUxNSAyNC42NDIzTDkuNjUzNjMgMjQuNTY2MUw5LjU4NTE1IDI0LjQ4OTlMMC4yMjAzMzYgMTQuMTMxNEw5LjU4NTE1IDMuNzY1NzNMOS42NTM2MyAzLjY4OTUxTDkuNTg1MTUgMy42MTI1Mkw5LjU4NTE1IDMuNjI1NDJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=&suffix=+关注者)](https://juejin.cn/user/你的用户ID)
+
+</div>
+
+> Check out my latest articles on [稀土掘金](https://juejin.cn/user/4100551259985721) 🚀
+
+*📖 [➡️ More articles on 掘金...](https://juejin.cn/user/4100551259985721)*
+
+---
 
 ## 📫 Let's Connect
 

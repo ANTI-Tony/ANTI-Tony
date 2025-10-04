@@ -1,0 +1,21 @@
+name: Latest Blog Posts
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天更新一次
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update-readme-with-blog:
+    name: Update README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      - name: Update README with Juejin posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://juejin.cn/user/4100551259985721"
+          max_post_count: 5
+          template: "$newline- $randomEmoji(💯,🔥,💫,🚀,🌟) [$title]($url) $newline"
