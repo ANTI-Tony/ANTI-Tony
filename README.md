@@ -12,7 +12,7 @@
 
 - 🎓 **Software Engineering (Honours)** student at **University of Sydney**
 - 📱 **Mobile Application Developer** 
-- 🌏 Based in **Sydney, Australia** 🇦🇺
+- 🌏 Based in **Sydney, Australia** 🇦🇺 ｜｜ **Shanghai，China** 🇨🇳
 - 🔭 Passionate about building cross-platform mobile apps and full-stack solutions
 - 📫 Reach me: **ts2015656@gmail.com** | [LinkedIn](https://www.linkedin.com/in/tony-wen-170461283/)
 
