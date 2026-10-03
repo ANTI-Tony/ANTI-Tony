@@ -1,131 +1,92 @@
-# Hi there, I'm Tony (Jingbo) Wen 👋
-
 <div align="center">
-  
-  ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00D9FF&center=true&vCenter=true&width=800&lines=Software+Engineering+Student+%40+USYD+🎓;Mobile+Developer+%7C+Full+Stack+Engineer;React+Native+%7C+iOS+%7C+Backend+Specialist;Building+Solutions+That+Matter+🚀)
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ANTI-Tony/ANTI-Tony/main/assets/masthead-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ANTI-Tony/ANTI-Tony/main/assets/masthead-light.svg">
+    <img src="https://raw.githubusercontent.com/ANTI-Tony/ANTI-Tony/main/assets/masthead-light.svg" width="560" alt="Jingbo Wen (Tony) — LLM systems, efficient inference, compute allocation">
+  </picture>
+  <br><br>
+  <a href="https://jtw-sable.vercel.app">Homepage</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://scholar.google.com/citations?user=iWXqUoEAAAAJ">Google&nbsp;Scholar</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="mailto:jingbowen46@gmail.com">Email</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.linkedin.com/in/tony-wen-170461283/">LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://juejin.cn/user/4100551259985721">Juejin</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://jtw-sable.vercel.app/zh">中文</a>
 </div>
 
----
+<br>
 
-## 👨‍💻 About Me
+I build and study infrastructure for large language models: inference serving, speculative decoding, and distributed training. I am completing a B.Eng. (Hons) in Software Engineering at the University of Sydney. Most recently I was an Applied Scientist Intern at Microsoft, working on foundation-model serving; before that, an Agent Engineering Intern at Xiaohongshu (RedNote). My research is on allocating inference compute: consequence-aware reasoning budgets and visual token compression, budget-robust speculative decoding, reward-aware execution gating for agents, and market-aware routing across inference providers.
 
-- 🎓 **Software Engineering (Honours)** student at **University of Sydney**
-- 📱 **Mobile Application Developer** 
-- 🌏 Based in **Sydney, Australia** 🇦🇺 ｜｜ **Shanghai，China** 🇨🇳
-- 🔭 Passionate about building cross-platform mobile apps and full-stack solutions
-- 📫 Reach me: **ts2015656@gmail.com** | [LinkedIn](https://www.linkedin.com/in/tony-wen-170461283/)
+*Open to LLM Engineer / LLM Infrastructure roles.*
 
----
+## Research
 
-## 🛠️ Tech Stack
+1. [Not All Errors Are Equal: Consequence-Aware Reasoning Compute Allocation](https://arxiv.org/abs/2606.04402)<br>
+   Liang He, **Jingbo Wen**, Haoyu Wang, Ziqi He, Yixiong Chen, Kangning Cui, Xilu Wang<br>
+   *arXiv:2606.04402, 2026.* 22–33% lower cost-weighted loss than difficulty-aware compute routing on SWE-bench Lite.
 
-<div align="center">
+2. [BudgetDraft: Acceptance-Aware Multi-View Training for Sparse-KV Speculative Decoding](https://arxiv.org/abs/2606.00144)<br>
+   Liang He, **Jingbo Wen**, Qishi Zhan, Yixiong Chen, Kangning Cui, Qizhen Lan, Xilu Wang<br>
+   *arXiv:2606.00144, 2026.* One budget-robust drafter for sparse KV Cache; 6.55× end-to-end speedup at 4K context. [[code]](https://github.com/ANTI-Tony/BudgetDraft)
 
-### Languages
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c++/c++-original.svg" width="50" height="50"/>
+3. [Not All Visual Tokens Are Equally Safe to Remove: Consequence-Sensitive Visual Token Compression](https://arxiv.org/abs/2608.09176)<br>
+   **Jingbo Wen**, Liang He, Mingyu Cao, Haoyu Wang, Minxuan Hu, Kangning Cui, Xilu Wang<br>
+   *arXiv:2608.09176, 2026.* High-stakes VLM errors 0.300 → 0.133 at fixed token budget; 38% lower cost-weighted error.
 
-### Frameworks & Libraries
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg" width="50" height="50"/>
+4. [From Relevance to Execution Utility: Reward-Aware Dynamic Execution Gating for Skill-Based LLM Agents](https://arxiv.org/abs/2608.09168)<br>
+   Liang He, **Jingbo Wen**, Hongyu Gu, Hao Li, Haoyu Wang, Yixiong Chen, Kangning Cui, Xilu Wang<br>
+   *arXiv:2608.09168, 2026.* RADEG skips 68% of agent calls while retaining 61% of total reward.
 
-### Databases & Cloud
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="50" height="50"/>
+5. [You Cannot Pick a Provider From the Price List: Market-Aware Routing for Open-Weight LLM Inference](https://arxiv.org/abs/2609.37902)<br>
+   Liang He, **Jingbo Wen**, Yixiong Chen, Yue Yang, Qizhen Lan, Kangning Cui, Xilu Wang<br>
+   *arXiv:2609.37902, 2026.* Price does not predict quality; measured routing saves ~50% at matched quality.
 
-### Tools & Platforms
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg" width="50" height="50"/>
+## Experience
 
-</div>
+**Microsoft** — Applied Scientist Intern, Azure community infra<br>
+<sub>Jun 2026 – Sep 2026</sub>
 
-## 📊 GitHub Stats
+- Built a dynamic-batching request scheduler in **Go** for Foundation Model serving (routing, admission control, deadlines), sustaining 2K+ concurrent streams; cut p99 TTFT by **28%** under bursty traffic.
+- Integrated **EAGLE-3 speculative decoding** into the serving runtime, with per-request KV-cache rollback so batches with unequal acceptance lengths verify in one pass; **1.8×** tokens/s at mean acceptance length 3.6.
+- Profiled the scheduler-to-GPU path with pprof and Nsight Systems; traced a TPOT regression to per-token scheduler–runtime RPC overhead and removed it with batched streaming, lowering TPOT by **17%**.
+- Built benchmarking and observability for **TTFT, TPOT, tokens/s, and KV-cache usage** across batch sizes and speculation configs; its load sweeps set the concurrency threshold above which speculation is disabled.
 
-<div align="center">
-  
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ANTI-Tony&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ANTI-Tony&layout=compact&langs_count=8&theme=tokyonight"/>
+**Xiaohongshu (RedNote)** — Agent Engineering Intern, Social Networking Engineering<br>
+<sub>Dec 2025 – Mar 2026</sub>
 
-</div>
+- Designed and developed an internal **Coding Agent** from 0→1, enabling autonomous codebase understanding, multi-file editing, tool use, code execution, and iterative debugging from natural-language instructions.
+- Built a **0→1 OCR verification pipeline** (extraction, validation, exception handling) for a production mobile app and took it from prototype to launch: **98% verification accuracy**, **21K+ users verified on day one**.
+- Optimized LLM serving (**vLLM, INT4 quantization, continuous batching**): **+45% QPS**, **−40% cost**.
+- Built and maintained internal LLM training and evaluation pipelines supporting **SFT / DPO / RLHF** workflows.
 
-<div align="center">
-  
-  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ANTI-Tony&theme=tokyonight)
+## Projects
 
-</div>
+**Distributed LLM Training & Inference System** — personal project, LLM Systems / Distributed Computing<br>
+<sub>Jan 2026 – Present</sub>
 
----
+- Implemented a 350M–1.3B GPT-style Transformer from scratch (**GQA, RoPE, SwiGLU, RMSNorm**).
+- Built **Megatron-style Tensor Parallelism** (Column/RowParallelLinear, VocabParallelEmbedding) and **Pipeline Parallelism** (GPipe / 1F1B scheduling, P2P activation transfer, pipeline bubble analysis).
+- Integrated **DeepSpeed ZeRO-1/2/3** with CPU Offload into a **3D parallel training stack (TP × PP × DP)**, pre-training a 1.3B model on **4×A100** (TP=2, PP=2) over 1.5B tokens.
+- Built a **KV Cache inference engine** (Prefill/Decode separation, dynamic batching, O(n) per-step attention).
+- Wrote custom **CUDA C++ and Triton kernels** (elementwise fusion, reduction, softmax/LayerNorm, tiled matmul) and profiled them against PyTorch native ops with Nsight Compute.
 
-## 🐍 Contribution Activity
+## Skills
 
-<div align="center">
-  
-  ![Snake animation](https://raw.githubusercontent.com/ANTI-Tony/ANTI-Tony/output/github-contribution-grid-snake-dark.svg)
+<table>
+  <tr><td><b>LLM&nbsp;Training</b></td><td>LoRA · SFT / DPO / RLHF · DDP · Tensor / Pipeline Parallelism · DeepSpeed ZeRO-1/2/3 · NCCL</td></tr>
+  <tr><td><b>LLM&nbsp;Inference</b></td><td>KV Cache · Paged Attention · Speculative Decoding · Quantization · vLLM · TensorRT-LLM</td></tr>
+  <tr><td><b>GPU&nbsp;&amp;&nbsp;Kernel</b></td><td>CUDA C++ · Triton · Nsight Compute · CUDA Streams / Events</td></tr>
+  <tr><td><b>ML&nbsp;Engineering</b></td><td>PyTorch · Go · FAISS · ChromaDB · RAG · FastAPI · Docker · Linux · Git</td></tr>
+</table>
 
-</div>
+## Education
 
----
+**University of Sydney** — B.Eng. (Hons), Software Engineering (ECE)<br>
+<sub>Mar 2023 – Mar 2027 (expected)</sub>
 
-## 🏆 Achievements
+GPA 3.8 / 4.0 · 2025 Dean’s List · TOEFL iBT 110 / 120 (5.5 / 6)
 
-<div align="center">
-  
-  ![trophy](https://github-profile-trophy.vercel.app/?username=ANTI-Tony&theme=tokyonight&no-frame=true&row=1&column=7)
+## Writing
 
-</div>
+I write 拆解大模型 (“Taking LLMs Apart”), a series in Chinese on [Juejin](https://juejin.cn/user/4100551259985721) about how large language models work: language modeling, Transformer internals, attention, and training.
 
-### 📜 Certifications
-- ✅ Google AI Essentials (May 2024)
-- ✅ Google IT Support (June 2024)
-- ✅ Commonwealth Bank Introduction to Software Engineering (December 2024)
-- ✅ Commonwealth Bank Software Engineering (January 2025)
-
----
-## 📝 Latest Blog Posts
+<br>
 
 <div align="center">
-
-[![掘金](https://img.shields.io/badge/dynamic/json?labelColor=1e80ff&color=1e80ff&label=掘金&query=$[0].follower_count&url=https://api.juejin.cn/user_api/v1/user/get?user_id=你的用户ID&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAzNiAyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNy45MTQ5IDMuNjI1NDJMMTcuOTIzOCAzLjYxNzg4TDE5Ljk5OTggMC45NzY1NjJMMjAuMDY1NSAwLjkwMDM5MUwyMC4xMzgxIDAuOTc2NTYyTDMwLjg1NzQgMTQuMDU1M0wzMC45MjMzIDE0LjEzMTRMMzAuODU3NCAxNC4yMDc2TDIwLjEzODEgMjcuMjg2NEwyMC4wNjU1IDI3LjM2MjZMMTkuOTkyOSAyNy4yODY0TDE3LjkxNDkgMjQuNjQyM0wxNy44NDY0IDI0LjU2NjFMMTcuOTE0OSAyNC40ODk5TDI3LjI3OTcgMTQuMTMxNEwxNy45MTQ5IDMuNzY1NzNMMTcuODQ2NCAzLjY4OTUxTDE3LjkxNDkgMy42MTI1MkwxNy45MTQ5IDMuNjI1NDJaTTkuNTg1MTUgMy42MjU0Mkw5LjU3NjIyIDMuNjE3ODhMNy41MDAwNiAwLjk3NjU2Mkw3LjQzNDM1IDAuOTAwMzkxTDcuMzYxODMgMC45NzY1NjJMLTMuMzU3NDYgMTQuMDU1M0wtMy40MjMzNCAxNC4xMzE0TC0zLjM1NzQ2IDE0LjIwNzZMNy4zNjE4MyAyNy4yODY0TDcuNDM0MzUgMjcuMzYyNkw3LjUwNjg3IDI3LjI4NjRMOS41ODUxNSAyNC42NDIzTDkuNjUzNjMgMjQuNTY2MUw5LjU4NTE1IDI0LjQ4OTlMMC4yMjAzMzYgMTQuMTMxNEw5LjU4NTE1IDMuNzY1NzNMOS42NTM2MyAzLjY4OTUxTDkuNTg1MTUgMy42MTI1Mkw5LjU4NTE1IDMuNjI1NDJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=&suffix=+关注者)](https://juejin.cn/user/4100551259985721)
-
-</div>
-
-> Check out my latest articles on [稀土掘金](https://juejin.cn/user/4100551259985721) 🚀
-
-*📖 [➡️ More articles on 掘金...](https://juejin.cn/user/4100551259985721)*
-
----
-
-## 📫 Let's Connect
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tony-wen-170461283/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ts2015656@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ANTI-Tony)
-
-</div>
-
----
-
-<div align="center">
-  
-  ![Profile Views](https://komarev.com/ghpvc/?username=ANTI-Tony&color=blueviolet&style=flat-square)
-  
-  **💡 Open to collaboration opportunities and interesting projects!**
-  
+  <sub>More at <a href="https://jtw-sable.vercel.app">jtw-sable.vercel.app</a> · Last updated October 2026</sub>
 </div>
